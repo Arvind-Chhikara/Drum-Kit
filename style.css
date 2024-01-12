@@ -1,0 +1,32 @@
+.container{
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(auditorium.jpg);
+    background-size: cover;
+}
+
+.key{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid wheat;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    text-shadow: 0 0 5px black;
+    font-size: 20px;
+    transition: all 0.1s;
+}
+
+.playing{
+    transform: scale(1.2);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
